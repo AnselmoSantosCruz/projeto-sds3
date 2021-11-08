@@ -21,3 +21,4 @@ public class SellerService {
 		return result.stream().map(x -> new SellerDTO(x)).collect(Collectors.toList());
 	}
 }
+ 
